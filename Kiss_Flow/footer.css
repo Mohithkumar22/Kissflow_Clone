@@ -1,0 +1,207 @@
+.first-footer{
+    border: 1px solid rgb(140, 139, 139);
+    height: 50px;
+    padding-bottom:70px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+
+.footer-kissflow-logo{
+    height: 60px;
+    width: 150px;
+    margin-left: 150px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li{
+    /* margin-bottom: 70px; */
+    list-style: none;
+}
+
+
+.link-address{
+     font-size: 20px;
+     margin-right:30px ;
+}
+
+
+.language{
+    padding: 8px 5px 8px 5px;
+    margin-right: 200px;
+    width: 140px;
+    font-size: 16px;   
+    background-color: white;
+    border: 1px solid rgb(202, 199, 199);
+}
+
+.language .fa-solid{
+    margin-left: 10px;
+}
+
+.language .fa-language{
+    font-size: 22px;
+}
+
+
+.lang1{
+    background-color: gainsboro;
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    left:50%;
+    border:1px solid grey;
+    width:170px;
+    border-radius:4px;
+    justify-content:end;
+    margin-left: 310px;
+}
+
+.lang1 button{
+        background-color: gainsboro;
+        width: 90%;
+        font-size: 22px;
+        border: none;
+        margin:2px 5px;
+        /* margin-top: 2px; */
+        padding-right: 20px;
+        /* margin-bottom: 10px; */
+        background-color: white;
+}
+
+.lang1 img{
+    margin-right: 10px;
+}
+
+.germany:hover{
+    background-color: wheat;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+.footer-list-1{
+    margin-left: 140px;
+}
+
+.footer-list-1 p{
+    color: rgb(99, 98, 98);
+    font-weight: 300;
+    margin-top: 22px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-strong{
+    font-size: 16px !important;
+    color: rgb(50, 49, 49) !important;
+    font-weight: 600 !important;
+}
+
+#quick{
+    margin-top: 60px;
+}
+
+#quick:hover{
+    cursor:default;
+}
+
+.footer-list-2 p{
+    color: rgb(99, 98, 98);
+    font-weight: 300;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container p:hover{
+    color: rgb(0, 81, 255);
+    cursor: pointer;
+}
+
+.footer-list-3 p{
+    color: rgb(99, 98, 98);
+    font-weight: 300;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-list-4 p{
+    color: rgb(99, 98, 98);
+    font-weight: 300;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-list-5 p{
+    color: rgb(99, 98, 98);
+    font-weight: 300;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+
+.footer-end{
+    margin-top: 60px;
+    height: 60px;
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-end-values{
+    margin-left: 140px;
+    align-items: center;
+    display: flex;  
+}
+
+.footer-end-values p{
+    font-size:12px;
+    border-right: 1px solid  rgb(72, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:5px;
+    padding-left:5px;
+    color: rgb(72, 71, 71);
+}
+
+.footer-end-values :last-child{
+    border: none !important;
+}
+
+.footer-end-values p:hover{
+    color: rgb(0, 81, 255);
+    border-color:rgb(0, 81, 255);
+}
+
+.footer-end-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.footer-end-logo p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:10px;
+    padding-left:10px;
+    color: rgb(72, 71, 71);   
+}
+
+.footer-end-logo i{
+    font-size: 18px;
+    margin-left: 5px;
+}

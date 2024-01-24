@@ -1,0 +1,39 @@
+.para p{
+    display:block;
+    margin-top: 80px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.parag{
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right,blue,violet);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.start_btn1{
+    padding:15px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    color: white;
+    margin-top:30px;
+    border-radius: 5px;
+    background-color: #0565ff;
+    margin-left:43%;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.customers{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  padding-top: 80px;
+}

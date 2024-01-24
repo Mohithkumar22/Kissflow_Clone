@@ -1,0 +1,247 @@
+.kissflow-story{
+    background-color: black;
+    padding-top:100px;
+    padding-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 200px;
+}
+
+
+.story-head{
+    color:white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.story-head span{
+    background: linear-gradient(to right,blue ,violet );
+    color:transparent;
+    font-size: 40px ;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.project1{
+    width: 430px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.slide1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.slide1-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    color: white;
+}
+
+.slide1-details li{
+    padding-top: 20px;
+    list-style: none;
+}
+
+
+.slide1-details img{
+    width: 120px;
+    height: 40px;
+}
+
+.slide1-para{
+    color: white;
+    width: 70%;
+}
+
+
+.slide1-details li p{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide1-details span{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide1-details button{
+    margin-top: 10px;
+    background-color: rgb(26, 88, 244);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.platforms{
+    padding-top:140px ;
+    padding-bottom: 120px;
+    background-color: rgb(249, 247, 247);
+
+}
+
+.platforms-head span{   
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(16, 87, 229);
+    font-weight: bold;
+}
+
+.platforms-head p{
+    color: black;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+
+}
+
+.platform-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.platform-type-1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border:2px solid white ;
+}
+
+.platform-type-1:hover{
+    transition: 1s ease;
+    border:2px solid black ;
+}
+
+.platform-types div{
+    margin-left: 30px;
+   
+}
+
+.platform-types img{
+    height: 150px;
+    width: 300px;
+}
+.cross-arrow{
+    padding: 10px 10px 10px 10px;
+    border-radius:50% ;
+    border:1px black solid;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.cross-arrow img{
+    height: 16px;
+    width: 16px;
+}
+
+.cross-arrow i{
+    font-size:18px;
+    transform: rotate(-140deg);
+}
+
+.platform-type-1:hover i{
+    color: white;
+}
+
+.platform-type-1:hover .cross-arrow{
+    background-color: black;
+}
+
+
+.ebook{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px;
+    background-color:rgb(246, 211, 246);
+    color: rgb(152, 12, 152);
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 200px;
+}
+
+.platform-type-1 p{
+    margin-top: 20px;
+    color: rgb(52, 52, 52);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+
+.webinar{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px;
+    background-color:rgb(247, 234, 210);
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 200px;
+}
+
+
+.video-text{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px;    
+    background-color:rgb(197, 248, 197);
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 200px;
+}
+
+
+.market{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.market-color{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top:60px;
+    padding-bottom:60px;
+    border-radius: 20px;
+}
+
+.market-color p{
+    color:white;
+    font-family: arial;
+    font-size: 40px;    
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+.market-color button{
+    color: white;
+    background-color: rgb(19, 84, 250);
+    font-size: 26px;
+    font-weight: bold;
+    padding:16px 22px 16px 22px ;
+    margin-right: 50px;
+    border:none;
+}
